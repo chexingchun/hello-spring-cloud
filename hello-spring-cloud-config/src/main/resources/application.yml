@@ -6,10 +6,11 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/topsale/spring-cloud-config
-          search-paths: respo
+          uri: https://github.com/chexingchun/hello-spring-cloud.git
+          search-paths: spring-cloud-config/respo
           username:
-          password:
+          password: 
+          default-label: main
 
 
 #默认端口，不能改
